@@ -1,0 +1,64 @@
+
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after{ box-sizing: inherit;}
+
+grains{
+	float:left;
+	width:50%;
+	margin-right: 15px;
+}
+p2 {
+	clear:left;
+}
+clear-it{
+	clear:left;
+}
+.float-r{
+	float: left;
+width:33%;	
+padding:1em;
+}
+aside{float:right;
+width:33%;	
+padding:1em;
+
+}
+div{
+	background-color:orange;
+	border:1px solid black
+	overflow: hidden;
+	main{ background-color:red;}
+
+}
+header{
+	background-color: orange;
+	padding:0.5em 2em 2em 2em;
+	text-align:center;
+	color; white
+}
+}
+	h1{
+	background-color: red;
+	padding: 2em o.75em 0.5em 2em;
+	margin: 0;
+	color:white;
+	border-radius: 10px;
+	text-align: center;
+	font-weight: normal;
+	font size:2em;
+	font-style: ;
+}
+nav ul{
+	overflow: hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li{
+	display:inline-block;
+	margin:0.5em;
+	padding: 0.5em 0em 0em 0.5em;
+} 
