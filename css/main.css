@@ -49,8 +49,9 @@ header{
 	font-weight: normal;
 	font size:2em;
 	font-style: ;
+	font-color: white;
 }
-nav ul{
+nav ol{
 	overflow: hidden;
 	list-style-type: none;
 	margin: 0;
