@@ -4,23 +4,41 @@
 @-webkit-viewport {width: device-width; scale: 1; }
 @-viewport {width: device-width; scale: 1; }
 
+
+*, *::before, *::after{ box-sizing: inherit;}
+
 html { 
 	-moz-text-size-adjust:100 ;
 	-ms-text-size-adjust:100 ;
 	-webkit-text-size-adjust:100 ;
 	text-size-adjust:100 ;
-	
-html{
-	box-sizing: border-box;
-}
-*, *::before, *::after{ box-sizing: inherit;}
 
-grains{
+	box-sizing: border-box;
+
+	margin:0;
+	padding:0
+	font: normal 100%/serif;
+	font-family: merriweather;
+}
+
+header{
+	background-color: orange;
+	padding:0.5em 2em 2em 2em;
+	text-align:center;
+	font-color; white
+}
+
+<img class="grains" src="images/Grains.jpg"alt="photo of  grains">
+
 	float:left;
 	width:50%;
-	margin-right: 15px;
+	margin-right: 1em;
+	margin-bottom: 1em;
 }
-p2 {
+
+p { 
+	font-family: merriweather;
+	margin-top: 0;
 	clear:left;
 }
 clear-it{
@@ -45,12 +63,7 @@ famouse cereal{
 }
 
 
-header{
-	background-color: orange;
-	padding:0.5em 2em 2em 2em;
-	text-align:center;
-	color; white
-}
+
 }
 	h1{
 	background-color: red;
@@ -79,9 +92,20 @@ nav li{
 figure{
 		text-align: center;
 		border: 
-		border-color: orange; 
+		
 		border-radius:
 		background-color: orange;
 		padding:1em 1em 1em 1em;
 		margin: 0em;
 	}
+figure-caption{
+	border-color: orange; 
+	margin: 1em
+	padding: 1em;
+}
+ <img clas="peanuts" src="images/peanuts.jpg, beans.jpg, lentils.jpg"
+ aside{float:right;
+width:33%;	
+padding:1em;
+
+
