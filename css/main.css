@@ -4,6 +4,7 @@
 @-webkit-viewport {width: device-width; scale: 1; }
 @-viewport {width: device-width; scale: 1; }
 
+/* This is what you do to caption text out */
 
 *, *::before, *::after{ box-sizing: inherit;}
 
@@ -16,20 +17,52 @@ html {
 	box-sizing: border-box;
 
 	margin:0;
-	padding:0
-	font: normal 100%/serif;
-	font-family: 'merriweather';
+	padding:0;
+
+	font-family: 'Merriweather', serif;
 }
-div{background-color: white;
+
+.main {
+	margin: 1em
+}
+
+img {
+	width: 100%;
+}
+
+body {
+	margin:0;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+/*///////////////////////////////////////////////////////// Main */
+
+.float-left {
+	display: block;
+	float: left;
+	width: 35%;
+	margin: 0.4em;
+}
+
+
+
+
+
+/*
+div {
+	background-color: white;
 	padding: 1em;
 	margin: 0; 
 }
-img{
+
+img {
 	float: left;
 }
 
-
-}
 head{
 	background-color: orange;
 	padding:0.5em 2em 2em 2em;
@@ -37,7 +70,6 @@ head{
 }
 
 h1{
-	font-family: 'merriweather';
 	font-weight: bold;
 	font-size: 2rem;
 	padding: 2em o.75em 0.5em 2em;;
@@ -48,7 +80,6 @@ h1{
 }
 
 h2{
-	font-family: 'merriweather';
 	font-weight: normal;
 	font-size: 1rem;
 	padding: ;
@@ -58,38 +89,34 @@ h2{
 	color: white;
 
 }
-<img class="grains" src="images/Grains.jpg"alt="photo of  grains">
-
-	float:left;
-	width:50%;
-	margin-right: 1em;
-	margin-bottom: 1em;
-}
 
 p { 
-	font-family: 'merriweather';
 	margin-top: 0;
 	clear:left;
 }
+
 clear-it{
 	clear:left;
 }
-.float-r{
-	
-width:33%;	
-padding:1em;
+
+.float-r {
+	width:33%;	
+	padding:1em;
 }
+
 aside{float:right;
 width:33%;	
 padding:1em;
 
 }
-famouse cereal{
+
+.famouse-cereal {
 	background-color:orange;
 	border:1px solid black
 	overflow: hidden;
 	main{ background-color:d05c2e;}
 }
+
 nav ol{
 	overflow: hidden;
 	list-style-type: none;
@@ -97,27 +124,31 @@ nav ol{
 	padding: 0;
 }
 
-nav li{
+nav li {
 	display:inline-block;
 	margin:0.5em;
 	padding: 0.5em 0em 0em 0.5em;
 } 
-figure{
+
+figure {
 		text-align: center;
 		border: 
 		border-radius:
 		background-color: orange;
 		padding:1em 1em 1em 1em;
 		margin: 0em;
-	}
+}
+
 figure-caption{
 	border-color: orange; 
 	margin: 1em
 	padding: 1em;
 }
- <img clas="peanuts" src="images/peanuts.jpg, beans.jpg, lentils.jpg"
- aside{float:right;
-width:33%;	
-padding:1em;
+
+aside{
+	float:right;
+	width:33%;	
+	padding:1em;
+} */
 
 
