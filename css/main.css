@@ -112,9 +112,18 @@ h2{
 	margin: 0;
 	text-align: center;
 	color: white;
-
 }
 
+h3{
+
+	background-color: white;
+	font-weight: normal;
+	font-size: 1rem;
+	padding: ;
+	margin: 0;
+	text-align: center;
+	color: black;
+}
 p { 
 	margin-top: 0;
 	clear:left;
@@ -160,13 +169,23 @@ figure {
 		margin: 0em;
 }
 
-figure-caption{
-	border-color: #d05c2e;
+figure-caption {
+	background-color: #d05c2e;
 	color: white;
 	margin: 1em
 	padding: 1em;
+	font-weight: normal;
+	font-size: 1rem;
+	text-align: center;
+	color: white;
 }
+footer{
+background-color: #d05c2e;
+padding:1em 1em 0.5em 1em;
+text-align: center;
+color: white;
 
+}
 
 
 
