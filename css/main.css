@@ -38,14 +38,14 @@ p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
-ul{
+/*ul{
 	float: left;
 	padding:0;
 	margin:0;
 }
 li{display:inline;
-width:100%;
-}
+width:100%; 
+} */
 .menu{
 	width:100%
 	height:50%;
@@ -54,9 +54,10 @@ width:100%;
 	width:33.33%
 	float:left;
 	background-color:#d05c2e;
-	margin:0;
-	border:1pxsolid#A93F35;
-	margin: 
+	margin:0 
+	border:1px solid#A93F35;
+	margin:auto;
+
 
 }
 div.nav-menu{
@@ -69,8 +70,17 @@ a{
 a	
 }
 /*///////////////////////////////////////////////////////// Main */
-.main {
+.main{
 	margin: 1em
+}
+section{
+	float: left;
+	width:50% 
+
+}
+aside{
+	float: right;
+	width:50%
 }
 .float-left {
 	display: block;
@@ -82,35 +92,44 @@ a
 .float-right {
 	display: block;
 	float: right;
-	width:35%;
+	width:50%;
 	margin: 0.4em;
 }
-
 nav {
 	background-color: cc;
 	overflow: hidden;
 	height: 3rem;
-
 }
-
 nav ol{
 	list-style-type: none;
-	margin: 0 auto	;
+	margin: auto;
+	padding: auto;
 }
 
-nav li a{
+nav li{
+	float:right;
+	display:inline-block;
+	margin:0.5em;
+	padding: 0.5em 0em 0em 0.5em;
+}
+
+nav a{
+	color: #fff;
+	padding: 0.5em 0.75em;
+	background-color: #d05c2e;
 	text-decoration: none;
 	text-align: center;
-	padding: 1rem;
-}
-
-nav li {
-	float: right;
+	width: 10em;
 }
 
 h1 {
 	background-color: #d05c2e;
 	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2rem;
+	padding: 2em o.75em 0.5em 2em;;
+	margin: 0;
 	text-align: center;
 }
 
@@ -125,31 +144,21 @@ head{
 	text-align: center;	
 }
 
-h1{
-	font-weight: bold;
-	font-size: 2rem;
-	padding: 2em o.75em 0.5em 2em;;
-	margin: 0;
-	text-align: center;
-	background-color: #d05c2e;
-	color: white;
-}
-
 h2{
 	background-color: #d05c2e;
-	font-weight: normal;
-	font-size: 1rem;
-	padding: ;
-	margin: 0;
+	font-weight: 100%;
+	font-size: 2rem;
+	padding:0;
+	margin: 0em;
 	text-align: center;
 	color: white;
 }
 
 h3{
 	background-color: white;
-	font-weight: normal;
-	font-size: 1rem;
-	padding: ;
+	font-weight: 100%;
+	font-size: 2rem;
+	padding: 0;
 	margin: 0;
 	text-align: center;
 	color: black;
@@ -159,21 +168,6 @@ p {
 	clear:left;
 }
 
-clear-it{
-	clear:left;
-}
-
-.float-r {
-	width:33%;	
-	padding:1em;
-}
-
-.famouse-cereal {
-	background-color:;
-	border:1px solid black
-	overflow: hidden;
-	main{ background-color:#d05c2e;
-}
 nav dl{
 color: 
 
@@ -183,40 +177,42 @@ nav ol{
 	margin: 0;
 	padding: 0;
 }
-
+li{
+	with:100%
+	display:inline;
+}
 nav li {
 	display:inline-block;
 	margin:0.5em;
 	padding: 0.5em 0em 0em 0.5em;
 } 
+dt{
+	float:left;
+	width: 33%;
 
+}
 }
 figure {
 		background-color: #d05c2e;
 		text-align: center;
-		border: 
-		
-		
 		padding:1em 1em 1em 1em;
 		margin: 0em;
 }
 
-figure-caption {
+figcaption {
 	background-color: #d05c2e;
 	color: white;
 	margin: 1em
 	padding: 1em;
-	font-weight: normal;
-	font-size: 1rem;
 	text-align: center;
-	color: white;
+	c
 }
+
 footer{
 background-color: #d05c2e;
 padding:1em 1em 0.5em 1em;
 text-align: center;
 color: white;
-
 }
 
 
