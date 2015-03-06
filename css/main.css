@@ -69,7 +69,7 @@ div.nav-menu:hover{
 a{
 a	
 }
-/*///////////////////////////////////////////////////////// Main */
+
 .main{
 	margin: 1em
 }
@@ -92,7 +92,7 @@ aside{
 .float-right {
 	display: block;
 	float: right;
-	width:50%;
+	width:35%;
 	margin: 0.4em;
 }
 nav {
@@ -186,11 +186,7 @@ nav li {
 	margin:0.5em;
 	padding: 0.5em 0em 0em 0.5em;
 } 
-dt{
-	float:left;
-	width: 33%;
 
-}
 }
 figure {
 		background-color: #d05c2e;
