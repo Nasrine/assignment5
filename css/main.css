@@ -48,15 +48,39 @@ p {
 	margin: 0.4em;
 }
 
+.float-right {
+	display: block;
+	float: right;
+	width:35%;
+	margin: 0.4em;
+}
 
+nav {
+	background-color: #d05c2e;
+	overflow: hidden;
+	height: 3rem;
 
+}
 
+nav ol{
+	list-style-type: none;
+	margin: 0 auto	;
+}
 
-/*
-div {
-	background-color: white;
-	padding: 1em;
-	margin: 0; 
+nav li a{
+	text-decoration: none;
+	text-align: center;
+	padding: 1rem;
+}
+
+nav li {
+	float: right;
+}
+
+h1 {
+	background-color: #d05c2e;
+	color: white;
+	text-align: center;
 }
 
 img {
@@ -64,7 +88,8 @@ img {
 }
 
 head{
-	background-color: orange;
+
+	background-color: #d05c2e;
 	padding:0.5em 2em 2em 2em;
 	text-align: center;	
 }
@@ -75,17 +100,17 @@ h1{
 	padding: 2em o.75em 0.5em 2em;;
 	margin: 0;
 	text-align: center;
-	background-color: orange;
+	background-color: #d05c2e;
 	color: white;
 }
 
 h2{
+	background-color: #d05c2e;
 	font-weight: normal;
 	font-size: 1rem;
 	padding: ;
 	margin: 0;
 	text-align: center;
-	background-color: orange;
 	color: white;
 
 }
@@ -104,17 +129,11 @@ clear-it{
 	padding:1em;
 }
 
-aside{float:right;
-width:33%;	
-padding:1em;
-
-}
-
 .famouse-cereal {
 	background-color:orange;
 	border:1px solid black
 	overflow: hidden;
-	main{ background-color:d05c2e;}
+	main{ background-color:#d05c2e;
 }
 
 nav ol{
@@ -130,25 +149,24 @@ nav li {
 	padding: 0.5em 0em 0em 0.5em;
 } 
 
+}
 figure {
+		background-color: #d05c2e;
 		text-align: center;
 		border: 
-		border-radius:
-		background-color: orange;
+		
+		
 		padding:1em 1em 1em 1em;
 		margin: 0em;
 }
 
 figure-caption{
-	border-color: orange; 
+	border-color: #d05c2e;
+	color: white;
 	margin: 1em
 	padding: 1em;
 }
 
-aside{
-	float:right;
-	width:33%;	
-	padding:1em;
-} */
+
 
 
