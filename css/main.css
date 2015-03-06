@@ -22,8 +22,8 @@ html {
 	font-family: 'Merriweather', serif;
 }
 
-.main {
-	margin: 1em
+.main{
+	margin:1em;
 }
 
 img {
@@ -38,9 +38,40 @@ p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+ul{
+	float: left;
+	padding:0;
+	margin:0;
+}
+li{display:inline;
+width:100%;
+}
+.menu{
+	width:100%
+	height:50%;
+}
+.nav-menu{
+	width:33.33%
+	float:left;
+	background-color:#d05c2e;
+	margin:0;
+	border:1pxsolid#A93F35;
+	margin: 
 
+}
+div.nav-menu{
+	text-align:center;
+}
+div.nav-menu:hover{
+	background-color: #A93F35;
+}
+a{
+a	
+}
 /*///////////////////////////////////////////////////////// Main */
-
+.main {
+	margin: 1em
+}
 .float-left {
 	display: block;
 	float: left;
@@ -56,7 +87,7 @@ p {
 }
 
 nav {
-	background-color: #d05c2e;
+	background-color: cc;
 	overflow: hidden;
 	height: 3rem;
 
@@ -115,7 +146,6 @@ h2{
 }
 
 h3{
-
 	background-color: white;
 	font-weight: normal;
 	font-size: 1rem;
@@ -139,11 +169,13 @@ clear-it{
 }
 
 .famouse-cereal {
-	background-color:orange;
+	background-color:;
 	border:1px solid black
 	overflow: hidden;
 	main{ background-color:#d05c2e;
 }
+nav dl{
+color: 
 
 nav ol{
 	overflow: hidden;
