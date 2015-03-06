@@ -66,9 +66,6 @@ div.nav-menu{
 div.nav-menu:hover{
 	background-color: #A93F35;
 }
-a{
-a	
-}
 
 .main{
 	margin: 1em
@@ -94,6 +91,9 @@ aside{
 	float: right;
 	width:35%;
 	margin: 0.4em;
+}
+.float-right-quinoa {
+	clear:right;
 }
 nav {
 	background-color: cc;
@@ -133,8 +133,21 @@ h1 {
 	text-align: center;
 }
 
-img {
+
+}
+img{
 	float: left;
+	width:33%;
+}
+
+ul li img{
+	width:25%;
+	float:left;
+	overflow: hidden;
+}
+
+ul li {
+	overflow: hidden;
 }
 
 head{
@@ -145,7 +158,8 @@ head{
 }
 
 h2{
-	background-color: #d05c2e;
+	clear:both;
+	background-color: #dc8252;
 	font-weight: 100%;
 	font-size: 2rem;
 	padding:0;
@@ -163,7 +177,7 @@ h3{
 	text-align: center;
 	color: black;
 }
-p { 
+.intro { 
 	margin-top: 0;
 	clear:left;
 }
@@ -189,7 +203,7 @@ nav li {
 
 }
 figure {
-		background-color: #d05c2e;
+		background-color: #dc8252;
 		text-align: center;
 		padding:1em 1em 1em 1em;
 		margin: 0em;
@@ -209,6 +223,7 @@ background-color: #d05c2e;
 padding:1em 1em 0.5em 1em;
 text-align: center;
 color: white;
+clear:both;
 }
 
 
